@@ -1,11 +1,13 @@
-% 유전 알고리즘 과제
-% A, B, C 세명의 형제가 21억의 재산을 4:3:1 로 나누는 것이 목표
-% 즉 목표치는 11억, 8억, 3억 (엑셀에서 소수점 무시함)
+% GA algorithm assignment
+% Three siblings A, B, C are going to distribute their parents
+% money which is 2.1billion in ratio of 4:3:1 
+% Eventually the goal is the give 11, 8, 3 billion respectively to A, B, C
+
 clear all; clc;
-% 모두 초기화하고 시작
+% Clear everything
 
 A = 1; B = 2; C = 3;
-% 세 형제를 숫자로 변환
+% Substitue A, B, C to 1, 2, 3
 
 G1 = [B B A C B C];
 G2 = [B B C C B B];
